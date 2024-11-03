@@ -1,0 +1,49 @@
+/* Estilo del footer */
+footer {
+  background-color: #1e90ff; /* Color de fondo */
+  color: #ffffff; /* Color de texto */
+  padding: 20px 0; /* Espaciado superior e inferior */
+  display: flex; /* Usar flexbox para distribución */
+  justify-content: space-between; /* Espaciar columnas */
+  align-items: center; /* Alinear verticalmente */
+  flex-wrap: wrap; /* Permitir que las columnas se envuelvan en dispositivos más pequeños */
+  text-align: center; /* Centrar texto */
+  width: 100%; /* Asegura que el footer cubra todo el ancho */
+}
+
+/* Estilo para las columnas */
+footer div {
+  flex: 1; /* Cada columna ocupará el mismo espacio */
+  margin: 10px; /* Margen entre columnas */
+}
+
+/* Estilo para el texto del footer */
+footer p {
+  margin: 5px 0; /* Espaciado vertical reducido */
+  font-size: 1em; /* Aumentar el tamaño de fuente */
+}
+
+/* Estilo para enlaces dentro del footer */
+footer a {
+  color: #ffffff; /* Color de los enlaces */
+  text-decoration: none; /* Sin subrayado */
+  margin: 0 10px; /* Espaciado entre enlaces */
+  transition: color 0.3s; /* Transición suave para cambios de color */
+}
+
+/* Efecto al pasar el mouse sobre los enlaces */
+footer a:hover {
+  color: #ffcc00; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilo para iconos de redes sociales */
+.social-icons {
+  margin-top: 10px; /* Espaciado encima de los iconos */
+}
+
+/* Estilo para iconos */
+.social-icons a {
+  margin: 0 10px; /* Espaciado entre iconos */
+  color: #ffffff; /* Color de los iconos */
+  font-size: 1.5em; /* Tamaño de los iconos */
+}

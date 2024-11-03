@@ -1,0 +1,46 @@
+.skills-container {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px auto; /* Centramos el contenedor */
+    transition: transform 0.3s; /* Transición para el efecto hover */
+}
+
+.skills-container:hover {
+    transform: scale(1.02); /* Aumentar ligeramente al pasar el mouse */
+}
+
+.skills-list {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+    display: grid; /* Usamos grid para dos columnas */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    gap: 15px; /* Espacio entre los elementos */
+}
+
+.skill-item {
+    padding: 15px; /* Espaciado interno */
+    border: 1px solid #e0e0e0; /* Borde sutil */
+    border-radius: 5px; /* Esquinas redondeadas */
+    background-color: #f8f8f8; /* Fondo gris claro */
+    transition: background-color 0.3s; /* Transición para el efecto hover */
+}
+
+.skill-item:hover {
+    background-color: #e9f5ff; /* Cambia el fondo al pasar el mouse */
+}
+
+.skill-item strong {
+    display: block; /* Hace que el nombre de la habilidad ocupe toda la línea */
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+    color: #007bff; /* Color azul */
+}
+
+.skill-item span {
+    font-size: 14px; /* Tamaño de fuente más pequeño para la descripción */
+    color: #555; /* Color gris para la descripción */
+    margin-top: 5px; /* Espaciado superior */
+    display: block; /* Hace que el texto de la descripción ocupe toda la línea */
+}
